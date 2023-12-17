@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /assets/
+Disallow: /cache/
+Disallow: /emails/
+Disallow: /includes/
+Disallow: /install/
+Disallow: /lang/
+Disallow: /node_modules/
+Disallow: /templates/
+Disallow: /upload/
+Disallow: /vendor/

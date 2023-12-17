@@ -1,0 +1,24 @@
+// Preview modal
+#preview_modal {
+    .modal-header {
+        .modal-title {
+            display: inline-block;
+            margin-bottom: 0;
+        }
+    }
+
+    .modal-body {
+        audio {
+            width: 100%;
+        }
+    }
+
+    .embed-responsive {
+        background: black;
+    }
+
+    div.embed-responsive iframe {
+        width: 100%;
+        min-height: 39em;
+    }
+}
