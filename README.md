@@ -1,132 +1,63 @@
-# ProjectSend
+NAME OF THE PROJECT
+File Sharing Website
 
-![ProjectSend logo](https://www.projectsend.org/projectsend-logo-new.png)
 
-## About
+LIST OF TEAM MEMBERS
+Team Members Name : Clement Urah, Ismail Alade, John Samuel, Muhammed Baldeh
 
-ProjectSend is a free, clients-oriented, private file sharing web application.
+DESCRIPTION OF THE PROJECT
+File Sharing or File Hosting Website are special type of website which are developed to store files. These files maybe multimedia like image, audio or video file or document like pdf or text files or application or software like exe, zip, rar or apk files
 
-Clients are created and assigned a username and a password.  
-Uploaded files can be assigned to specific clients or clients groups.
+LEARNING OBJECTIVES
+You Can Upload Files
+You Can Share The Uploaded Files
+File Can Be Accessed Anywhere
+Easy To Share Files
 
-Other featres include auto-expiration of upload, notifications, full logging of actions by users and clients, option to allow clients to also upload files, themes, multiple languages...
+TECHNOLOGIES USED
+Web Hosting
+Domain
 
-Main website: [projectsend.org](https://www.projectsend.org)  
-git: [current repository](https://github.com/projectsend/projectsend/)
-Support via Patreon: [Patreon](https://www.patreon.com/ignacionelson)
-Support via Open Collective: [Open Collective](https://opencollective.com/projectsend)
+THIRD SERVICES USED IF APPLICABLE
 
-Feel free to participate!
+Cloud Storage integration:Google drive, dropbox or OneDrive
+Athentication Services:Google OAuth or Facebook logins
+CDN: content delivery service like Cloudflare
+Analytics Tools: Google Analytics to gather insights on user behavior
 
-## IMPORTANT
 
-It is recommended that you download the latest release from the official website.
+CHALLENGES ALREADY IDENTIFIED
 
-Downloading a development version directly from the repository might give you unexpected results, such as visible errors, functions that are still not finished, etc.
+Security Measures: Implementing robust security features to ensure the confidentiality and integrity of uploaded files.
 
-## Server requirements
+ Scalability: designing the system to handle a growing number of users and an increasing volume of files efficiently.
 
-Your server needs to be configured with at least:
+ User Interface Design: Creating an intuitive and user-friendly interface to enhance the overall user experience.
 
-* php 7.4 or newer
-* MySQL 5.0 or newer(*)
-* Apache 2.2 or NGINX (recommended)
-* The following php extensions enabled on php.ini
-  * pdo
-  * pdo_mysql
-  * mbstring
-  * gettext
-  * fileinfo
-  * gd2
-  * xml
-* cURL extension is recommended
+ Cross-Browser Compatibility: ensuring the website functions seamlessly across different web browsers for a wider user reach.
 
-(*) If you are using version 8.x or newer, please set the authentication method of your database so it uses the MySQL native password. The default method (caching_sha2_password) will not work. Thanks to user jellevdbos for pointing this out.
+ Data Backup and Recovery: Developing a reliable backup and recovery system to prevent data loss in case of unforeseen circumstances.
 
-If possible, make sure to have php configured with:
+ File Type Compatibility: Ensuring compatibility for various file types and optimizing the platform for different file sizes.
 
-* memory_limit set to 128M or more
+ Legal and Compliance Issues: Adhering to copyright laws and ensuring compliance with data protection regulations.
 
-## Optional: Improve downloads by using XSendFile
 
-If you have access to edit your Apache or NGINX modules and configurations, it's recommended that you enable XSendFile so the files are served directly, eliminating php as a middle-man, which can be the cause of slow, interrupted downloads, or corrupted files.
-After enabling the module, make sure to also enable the option in the General options panel of ProjectSend.
+SCHEDULE OF WORK
+ Week 1-2: Project Planning and Requirement Analysis
+ Week 3-4: System Architecture Design
+ Week 5-7: Frontend Development
+ Week 8-10: Backend Development and Database Integration
+ Week 11-12: Security Implementation and Testing
+ Week 13-15: User Interface Refinement
+ Week 16-18: Cross-Browser Compatibility Testing
+ Week 19-20: Scalability Enhancement
+ Week 21-22: Data Backup and Recovery System Implementation
+ Week 23-24: File Type Compatibility Testing
+ Week 25-26: Legal and Compliance Review
+ Week 27-28: Final Testing and Bug Fixing
+ Week 29-30: Deployment and Launch
 
-A few resources on how to get started:
 
-* [mod_xsendfile for Apache2/Apache2.2](https://tn123.org/mod_xsendfile/)
-* [XSendfile on NGINX wiki](https://www.nginx.com/resources/wiki/start/topics/examples/xsendfile/)
-
-## How to install on your server
-
-Preparations:
-
-1. Download and unzip the lastest version of ProjectSend to a folder of your choice.
-2. Create a new database on your server. Create/assign a user to it.
-
-When those are steps are completed, follow this instructions:
-
-1. Upload ProjectSend to your selected destination folder.
-2. Either:
-    * Rename includes/sys.config.sample.php to sys.config.php and set your database info there.
-    * Skip to next item to generate the file by inputting the data into a form in your browser.
-3. Go to https://your-projectsend-folder/install
-4. Complete the information there and wait for the correct installation message.
-
-Congratulations! ProjectSend is now installed and ready for action!
-You may login with your new username and password.
-
-## How to upgrade to a newer version
-
-1. Download your version of choice from the official project page.
-2. Upload the files via FTP to your server and replace the ones of the older version.
-
-That's it!
-Your personal configuration file (sys.config.php) is never included on the downloadable versions, so it will not be replaced while upgrading.
-When a system user logs in to the system version, a check for database missing data will be made, and if anything is found, it will be updated automatically and a message will appear under the menu one time only.
-Whenever a new version is available, you will be notified in the admin panel via a message shown under the main menu.
-
-## Developing
-
-If you want to help with development, you will need to do a few things via the command line:
-
-1. Download the npm and composer dependencies with the commands ````npm install```` and ````composer update````
-1. Run the default gulp task simply with ````gulp```` to compile the main CSS and JS assets files.
-
-## How to join the project
-
-Questions, ideas?
-
-Send your message to contact@projectsend.org or join us on our [Facebook page](https://www.facebook.com/projectsend/)
-
-## Translations
-
-Thanks. Arigatō. Danke. Gracias. Grazie. Mahadsanid. Salamat po. Merci. אַ דאַנק.
-
-You can download the compiled, translated files for the available languages from [projectsend.org/translations](https://www.projectsend.org/translations/)
-
-If you want to translate ProjectSend in your language or work on an existing translation, please join the project on [Transifex](https://www.transifex.com/projects/p/projectsend)
-
-## License
-
-ProjectSend is licensed under [GNU GPL v2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-
-## Change log
-
-[Available at the official site](http://www.projectsend.org/change-log/)
-
-## Special thanks
-
-Many thanks to the authors and teams behind the dependencies used by ProjectSend.
-
-Also, thank you to the following people/communities that helped during development, either by giving support, sending code, translations, etc.
-
-* lenamtl
-* Alejandro D'Ambrosio
-* k.flipflip
-* Diego Carreira Vidal
-* Scott Wright
-* mschop
-* Everyone that commented and gave suggestions on the issues and Facebook pages!
-* stackoverflow.com
-* iconfinder.com
+MOCK-UPS
+File-sharing website mock-ups are visual representations of the site's interface and functionality before actual development. They typically include designs for uploading, downloading, file organisation, user profiles, and navigation. Mock-ups help stakeholders visualise the site's layout, features, and user flow, aiding in feedback and refining the final product.
