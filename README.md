@@ -44,19 +44,19 @@ Security Measures: Implementing robust security features to ensure the confident
 
 
 SCHEDULE OF WORK
- Week 1-2: Project Planning and Requirement Analysis
- Week 3-4: System Architecture Design
- Week 5-7: Frontend Development
- Week 8-10: Backend Development and Database Integration
- Week 11-12: Security Implementation and Testing
- Week 13-15: User Interface Refinement
- Week 16-18: Cross-Browser Compatibility Testing
- Week 19-20: Scalability Enhancement
- Week 21-22: Data Backup and Recovery System Implementation
- Week 23-24: File Type Compatibility Testing
- Week 25-26: Legal and Compliance Review
- Week 27-28: Final Testing and Bug Fixing
- Week 29-30: Deployment and Launch
+ Day 1-2: Project Planning and Requirement Analysis
+ Day 3-4: System Architecture Design
+ Day 5-7: Frontend Development
+ Day 8-10: Backend Development and Database Integration
+ Day 11-12: Security Implementation and Testing
+ Day 13-15: User Interface Refinement
+ Day 16-18: Cross-Browser Compatibility Testing
+ Day 19-20: Scalability Enhancement
+ Day 21-22: Data Backup and Recovery System Implementation
+ Day 23-24: File Type Compatibility Testing
+ Day 25-26: Legal and Compliance Review
+ Day 27-28: Final Testing and Bug Fixing
+ Day 29-30: Deployment and Launch
 
 
 MOCK-UPS
